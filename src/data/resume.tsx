@@ -127,12 +127,7 @@ export const DATA = {
           type: "Repository",
           href: "https://github.com/VijeshVS/CompileX",
           icon: <Icons.github className="h-4 w-4" />,
-        },
-        {
-          type: "Website",
-          href: "https://compx.vijesh.tech/",
-          icon: <Icons.globe className="size-3" />,
-        },
+        }
       ],
     },
     {
@@ -180,12 +175,7 @@ export const DATA = {
           type: "Repository",
           href: "https://github.com/VijeshVS/Vitalis",
           icon: <Icons.github className="h-4 w-4" />,
-        },
-        {
-          type: "Website",
-          href: "https://vitalis.shrishdeshpande.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
+        }
       ],
     },
     {
