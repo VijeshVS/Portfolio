@@ -2,6 +2,7 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 import eurlImg from '@/../public/eurl.png'
 import vitalisImg from '@/../public/vitalis.png'
+import ccImg from '@/../public/cc.jpeg'
 import { FaCrown, FaDev } from "react-icons/fa";
 import { GrCertificate } from "react-icons/gr";
 
@@ -14,7 +15,7 @@ export const DATA = {
   description:
     "Full Stack Developer",
   summary:
-    "Currently pursuing a B.E. in Information Science and Engineering at RV College of Engineering. I am passionate about Web development and Blockchain Technology. I have hands-on experience in building full stack applications ",
+    "Currently pursuing a B.E. in Information Science and Engineering at RV College of Engineering. I am passionate about Full-Stack development. I have hands-on experience in building full stack applications ",
   avatarUrl: "/mypic.jpeg",
   skills: [
     "Next.js",
@@ -28,6 +29,9 @@ export const DATA = {
     "Docker",
     "Java",
     "C++",
+    "Websockets",
+    "RabbitMQ",
+    "Langchain",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -65,14 +69,24 @@ export const DATA = {
   },
   work: [
     {
+      company: "Coding Club RVCE",
+      href: "https://www.instagram.com/codingclubrvce/",
+      badges: [],
+      location: "RVCE, Bangalore",
+      title: "Member",
+      logoUrl: "/cc.jpeg",
+      start: "April 2024",
+      end: "Present",
+    },
+    {
       company: "IEEE-RVCE",
-      href: "https://rvce.edu.in/ieee",
+      href: "https://www.ieee-rvce.org/",
       badges: [],
       location: "RVCE, Bangalore",
       title: "Web Developer",
       logoUrl: "/ieee-rvce.jpeg",
       start: "April 2024",
-      end: "November 2024",
+      end: "Present",
     },
   ],
   education: [
@@ -86,7 +100,7 @@ export const DATA = {
     },
     {
       school: "Expert PU College",
-      href: "https://expert.edu.in",
+      href: "https://kodialbail.expertclasses.org/",
       degree: "Pre-University PCMC",
       logoUrl: "/expert.jpeg",
       start: "2021",
@@ -94,6 +108,59 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "CompileX",
+      href: "https://github.com/VijeshVS/CompileX",
+      dates: "March 2025",
+      active: true,
+      description:
+        "A highly scalable code execution platform designed to handle multiple programming languages, ensuring efficient and secure code compilation and execution.",
+      technologies: [
+        "Node.js",
+        "RabbitMQ",
+        "Redis",
+        "Docker",
+        "React",
+      ],
+      links: [
+        {
+          type: "Repository",
+          href: "https://github.com/VijeshVS/CompileX",
+          icon: <Icons.github className="h-4 w-4" />,
+        },
+        {
+          type: "Website",
+          href: "https://compx.vijesh.tech/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+    },
+    {
+      title: "xO",
+      href: "https://github.com/VijeshVS/xO",
+      dates: "February 2025",
+      active: true,
+      description:
+        "A real-time multiplayer Tic Tac Toe game featuring WebSocket-based communication and a React frontend, offering seamless two-player matchmaking.",
+      technologies: [
+        "React",
+        "WebSockets",
+        "Node.js",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Repository",
+          href: "https://github.com/VijeshVS/xO",
+          icon: <Icons.github className="h-4 w-4" />,
+        },
+        {
+          type: "Website",
+          href: "https://xo.vijesh.tech/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+    },
     {
       title: "Vitalis",
       href: "https://github.com/VijeshVS/Vitalis",
@@ -108,7 +175,6 @@ export const DATA = {
         "Solidity",
         "TailwindCSS",
       ],
-      image: vitalisImg,
       links: [
         {
           type: "Repository",
@@ -136,7 +202,6 @@ export const DATA = {
         "Clickhouse",
         "Express",
       ],
-      image: eurlImg,
       links: [
         {
           type: "Repository",
@@ -196,7 +261,27 @@ export const DATA = {
     
   ],
   hackathons: [
-
+    {
+      title: "The Great Bangalore Hackathon",
+      dates: "March 2025",
+      location: "PES University Bangalore & KSIT Bangalore",
+      description:
+      "We tackled a problem statement from Namma Yatri which addresses challenges in urban mobility by focusing on taxi supply-demand management, enhancing rider engagement through incentives, and reducing ride denials. The solution involves developing a demand prediction model using an XGBoost Regressor to forecast taxi demand in Bangalore, utilizing synthetic data for training.",
+      image:
+        "/hc_logo.jpeg",
+      links: [
+        {
+          title: "Top 9",
+          icon: <FaCrown className="h-4 w-4"/>,
+          href: "#"
+        },
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/VijeshVS/Hackoholics-The-Great-Bangalore-Hackathon",
+        }
+      ],
+    },
     {
       title: "GenAI Hackathon",
       dates: "November 29,2024",
@@ -245,7 +330,7 @@ export const DATA = {
         {
           title: "Certificate",
           icon: <GrCertificate className="h-3 w-3" />,
-          href: "https://drive.google.com/file/d/1lLWOtniAj1DU7YWJq3E41FM3xD3GBZHc/view?usp=drive_link"
+          href: "https://drive.google.com/file/d/1lLWOtniAj1DU7YWJq3E41FM3xD3GBZHc/view?usp=drive_link",
         }
       ],
     },
