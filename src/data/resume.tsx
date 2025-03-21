@@ -75,7 +75,7 @@ export const DATA = {
       location: "RVCE, Bangalore",
       title: "Member",
       logoUrl: "/cc.jpeg",
-      start: "April 2024",
+      start: "Dec 2024",
       end: "Present",
     },
     {
