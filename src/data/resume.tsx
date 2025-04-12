@@ -252,6 +252,25 @@ export const DATA = {
   ],
   hackathons: [
     {
+      "title": "RoTech Hackathon",
+      "dates": "March 2024",
+      "location": "BMS College of Engineering",
+      "description": "Smart Match is an AI-powered platform that streamlines hiring by helping HRs quickly review and filter candidates using simple prompts powered by LLMs. HRs earn incentives for their reviews, which candidates can view to improve their profiles. LLMs also provide personalized suggestions to help candidates enhance their chances of getting hired.",
+      "image": "/rotech.jpg",
+      "links": [
+        {
+          title: "Top 9",
+          icon: <FaCrown className="h-4 w-4"/>,
+          href: "#"
+        },
+        {
+          "title": "Source",
+          "icon": <Icons.github className='h-4 w-4' />,
+          "href": "https://github.com/VijeshVS/smart-match"
+        }
+      ]
+    },
+    {
       title: "The Great Bangalore Hackathon",
       dates: "March 2025",
       location: "PES University Bangalore & KSIT Bangalore",
